@@ -4,8 +4,6 @@ function doToElementsInArray(array, callback) {
 }
 
 // Add your changeCompletely() function here:
-function changeCompletely(callback) {
-  callback(value, index, array) {
-    array[index] = "I changed " + array[index] + "!!!";
-  }
+function changeCompletely(value, index, array) {
+  array[index] = "I changed " + array[index] + "!!!";
 }
